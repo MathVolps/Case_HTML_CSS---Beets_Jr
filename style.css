@@ -1,0 +1,274 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #E9ECEC;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #3B3B3B;
+}
+
+/* títulos */
+h1, h2 {
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: -2px;
+	text-transform: capitalize;
+	font-weight: normal;
+	color: #CD853F;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+/* parágrafos e listas */
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+/* links */
+a {
+	text-decoration: none;
+	color: #3B3B3B;
+}
+
+a:hover {
+	background-color: #CD853F;
+	transition: .5s;
+}
+
+/* imagens */
+img {
+	border-radius: 8px;
+	box-shadow: inset 0px 0px 10px #363636e6;
+}
+
+/* sombras */
+.image-shadow {
+	border-radius: 8px;
+	box-shadow: inset 0px 0px 10px #363636e6;
+}
+
+/* logo "estrogonoblog" e seus elementos (título, parágrafo e link) */
+#logo {
+	margin: 0px;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+#logo h1 {
+	margin: 0px;
+	padding: 0px;
+	text-transform: lowercase;
+	font-size: 3.8em;
+	color: #CD853F;
+}
+
+#logo p {
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	text-align: center
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #CD853F;
+}
+
+/* menu e seus elementos */
+/* fundo */
+#menu-wrapper { 
+	position: relative;
+	overflow: hidden;
+	height: 56px;
+	background: #F4A460;
+}
+
+#menu {
+	width: 1200px;
+	height: 55px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+/* listas do menu */
+#menu ul {
+	margin: 0;
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+	border-left: 1px solid #CD853F;
+}
+
+/* configuração para retirada da 1° barra vertical à esquerda do menu */
+#menu li:first-child{
+	border-left: none;
+}
+
+/* links internos do menu */
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	margin: 0px 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover {
+	background-color: #CD853F;
+	transition: .5s;
+}
+
+/* página */
+#page {
+	overflow: hidden;
+	width: 1140px;
+	margin: 0px auto 50px auto;
+	padding: 30px 30px 0 30px;
+	background: #FFF;
+	border: 1px solid rgba(0,0,0,.05);
+	box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.03);
+	border-radius: 8px;
+}
+
+/* content */
+#content {
+	float: left;
+	width: 500px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+/* post (História, Perspectivas, etc) */
+.post {
+	margin-bottom: 15px;
+}
+
+/* título dos posts */
+.post .title {
+	margin-bottom: 20px;
+	padding-left: 0.5em;
+	font-size: 32px;
+	line-height: 40px;
+	border-left: 4px solid #CD853F;
+	color: #CD853F;
+}
+
+/* conteúdo dos posts */
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+/*1° metade da 2° coluna da página */
+#sidebar {
+	float: left;
+	width: 250px;
+	padding: 40px 0px 0px 50px;
+	color: #000000;
+}
+
+/* 2° metade da 2° coluna da página */
+#sidebar2 {
+	float: right;
+	width: 250px;
+	padding: 255px 30px 0px 0px;
+}
+
+/* listas das 2° coluna da página */
+#sidebar ul, #sidebar2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* listas das 2° coluna da página */
+#sidebar li, #sidebar2 li {
+	margin: 0;
+	padding: 0;
+}
+
+/* listas compostas da 2° metade da página */
+#sidebar li ul, #sidebar2 li ul {
+	margin: 0px 0px;
+	padding-bottom: 50px;
+}
+
+#sidebar li li, #sidebar2 li li {
+	border-bottom: 1px solid #00000012;
+	margin: 0px 0px;
+	padding: 10px 0px;
+	border-left: none;
+	list-style: inside square;
+}
+
+/* títulos da 2° coluna da página */
+#sidebar h2, #sidebar2 h2 {
+	padding-bottom: 20px;
+	font-size: 2em;
+	color: #CD853F;
+}
+
+/* tabela */
+table {
+	border: hidden;
+	padding: 10px;
+}
+
+/* cabeçalho da tabela */
+thead {
+	background-color: #CD853F;
+}
+
+/* corpo da tabela (elementos) */
+td {
+	padding: 5px;
+	text-align: center;
+}
+
+/* formulário */
+/* adcionando cor e borda ao botão de envio */
+form input[type="submit"] {
+	background-color:#F4A460;
+	border-radius: 5px;
+}
+
+/* adicionando bordas ao botão de limpar formulário */
+form input[type="reset"] {
+	border-radius: 5px;
+}
+
+/* adicionando borda às caixas de texto */
+form input[type="text"] {
+	border-radius: 5px;
+}
+
+/* adicionando bordas à caixa de mensagem */
+form textarea {
+	border-radius: 5px;
+}
